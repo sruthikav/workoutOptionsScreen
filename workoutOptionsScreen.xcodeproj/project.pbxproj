@@ -14,6 +14,10 @@
 		894290D3288865D50002733B /* workoutOptionsScreen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 894290D1288865D50002733B /* workoutOptionsScreen.xcdatamodeld */; };
 		894290D5288865D70002733B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894290D4288865D70002733B /* Assets.xcassets */; };
 		894290D8288865D70002733B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894290D6288865D70002733B /* LaunchScreen.storyboard */; };
+		8976366A2888EB8500412168 /* UpperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897636692888EB8400412168 /* UpperViewController.swift */; };
+		8976366C2888EB9A00412168 /* LowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976366B2888EB9A00412168 /* LowerViewController.swift */; };
+		8976366E2888EBA500412168 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976366D2888EBA500412168 /* CoreViewController.swift */; };
+		897636702888EBB100412168 /* CardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976366F2888EBB100412168 /* CardioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		894290D4288865D70002733B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894290D7288865D70002733B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894290D9288865D70002733B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897636692888EB8400412168 /* UpperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperViewController.swift; sourceTree = "<group>"; };
+		8976366B2888EB9A00412168 /* LowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerViewController.swift; sourceTree = "<group>"; };
+		8976366D2888EBA500412168 /* CoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		8976366F2888EBB100412168 /* CardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				894290C8288865D50002733B /* AppDelegate.swift */,
 				894290CA288865D50002733B /* SceneDelegate.swift */,
 				894290CC288865D50002733B /* ViewController.swift */,
+				8976366F2888EBB100412168 /* CardioViewController.swift */,
+				8976366D2888EBA500412168 /* CoreViewController.swift */,
+				897636692888EB8400412168 /* UpperViewController.swift */,
+				8976366B2888EB9A00412168 /* LowerViewController.swift */,
 				894290CE288865D50002733B /* Main.storyboard */,
 				894290D4288865D70002733B /* Assets.xcassets */,
 				894290D6288865D70002733B /* LaunchScreen.storyboard */,
@@ -143,7 +155,11 @@
 			files = (
 				894290D3288865D50002733B /* workoutOptionsScreen.xcdatamodeld in Sources */,
 				894290CD288865D50002733B /* ViewController.swift in Sources */,
+				8976366C2888EB9A00412168 /* LowerViewController.swift in Sources */,
 				894290C9288865D50002733B /* AppDelegate.swift in Sources */,
+				8976366E2888EBA500412168 /* CoreViewController.swift in Sources */,
+				8976366A2888EB8500412168 /* UpperViewController.swift in Sources */,
+				897636702888EBB100412168 /* CardioViewController.swift in Sources */,
 				894290CB288865D50002733B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
